@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30404.54
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZipCodeFinder", "ZipCodeFinder\ZipCodeFinder.csproj", "{499C7860-6964-490B-AF8B-939CEB435BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeFinderTests", "ZipCodeFinderTests\ZipCodeFinderTests.csproj", "{EDE38B7D-F68C-464E-AB13-94FF508102CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499C7860-6964-490B-AF8B-939CEB435BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499C7860-6964-490B-AF8B-939CEB435BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499C7860-6964-490B-AF8B-939CEB435BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499C7860-6964-490B-AF8B-939CEB435BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE38B7D-F68C-464E-AB13-94FF508102CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE38B7D-F68C-464E-AB13-94FF508102CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE38B7D-F68C-464E-AB13-94FF508102CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE38B7D-F68C-464E-AB13-94FF508102CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DE245FF-ECCD-4F85-9349-ECDEE59B5869}
+	EndGlobalSection
+EndGlobal

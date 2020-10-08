@@ -1,0 +1,16 @@
+language: csharp
+solution: ZipCodeFinder.sln
+mono: none
+dotnet: 3.1
+
+script:
+ - dotnet restore
+ - dotnet test
+
+deploy:
+  provider: azure_web_apps
+  site: zipCodeApi
+
+
+
+
