@@ -46,6 +46,7 @@ namespace ZipCodeFinder
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "ZipCodeFinder V1");
+                c.RoutePrefix = "";
             });
 
             if (env.IsDevelopment())
