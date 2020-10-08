@@ -30,11 +30,5 @@ namespace ZipCodeFinder.Controllers
 
             return await _zipCodeService.LookupZipCodes(city, state);
         }
-
-        [HttpPost]
-        public string Hello([FromBody] string name)
-        {
-            return $"Hello {name}";
-        }
     }
 }
